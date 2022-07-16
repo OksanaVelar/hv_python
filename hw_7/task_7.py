@@ -5,7 +5,7 @@ import random
 
 n = int(input('Введите любое число и нажмите "Enter": '))
 file = open('text.txt', 'w')
-ind = random.randint(0,n)
+ind = random.randint(0,n) 
 file.write(str(ind)+'\n')
 file.write(str(random.randint(0,n)))
 string = []
