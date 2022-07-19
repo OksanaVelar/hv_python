@@ -1,16 +1,8 @@
 # Напишите программу, которая найдёт произведение пар чисел списка. 
 # Парой считаем первый и последний элемент, второй и предпоследний и т.д.
-# shed = [1, 5, 7, 12, 4, 9, 1]
-# result = 0
-# def mult(el):
-#     el
-#     for el in range (len(shed)):
-#         if len(shed)//2:
-#             return shed[]
-   
 
-# print(new_shed)
-
+# 
+# 1 ВАРИАНТ
 # shed = [1,5,7,12,4,9,1]
 
 # def Multi(arr: list):
@@ -21,6 +13,7 @@
 
 # print(Multi(shed))
 
+# 2 ВАРИАНТ
 shed = [1,5,7,12,4,9,1,4]
 
 def Multi(arr: list):
