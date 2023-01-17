@@ -8,7 +8,7 @@
 # for i in range (len(shed)):
 #     if i % 2 !=0:
 #         new_shed.append(shed[i])
-#         # print(shed.pop(i))
+#         print(shed.pop(i))
 
 # print(new_shed)
 
