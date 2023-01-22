@@ -1,39 +1,23 @@
-# Условие сходной задачи:
-# напишите программу, которая найдёт произведение пар чисел списка. 
-# парой считаем первый и последний элемент, второй и предпоследний и т.д.
+# Условие исходной задачи:
+# напишите программу, которая найдёт произведение пары чисел списка. 
+# парой считаем первый и последний элемент.
 
-# Решение исходной задачи:
-# shed = [1,5,7,12,4,9,1,4]
+def calc(x, y):
+    return x*y
+f = calc
+f = lambda x, y: x*y 
 
-# def Multi(arr: list):
-#     size = len(arr)-1
-#     arra = []
-#     for i in range(len(arr)//2):
-#        arra.append(arr[i]*arr[size-i])
-#     return arra
-
-# new_list = Multi(shed)
-# print(new_list)
-
-# решение задачи с лямбдой:
-from re import X
-
+def calc2(a, b, op):
+    return op(a, b)
+f2 = calc2
 
 shed = [1,5,7,12,4,9,1,4]
-# def oprc(x,y):
-#     return x*y
-oprc = lambda x,y: x*y
+size = len(shed)-1
+i = 0
+part1 = shed[i]
+part2 = shed[size-i]
+rez = f2(part1, part2, lambda part1, part2: part2*part1)
 
-def Multi(arr: list):
-    size = len(arr)-1
-    arra = []
-    x = arr[i]
-    y = arr[size-1]
-    w = oprc
-    for i in range(len(arr)//2):
-        arra.append(w)
-    return arra
+print (rez)
 
-new_list = Multi(shed)
-print(new_list)
 
