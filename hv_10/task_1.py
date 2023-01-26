@@ -17,24 +17,24 @@
 # print(sum)
 
 # 2 ВАРИАНТ
-# shed = [1,5,7,3,73,59,345]
-# sum = 0
-# i = 0
-# while i < len(shed):
-#     if i%2 != 0:
-#         sum += shed[i]
-#     i+=1
+shed = [1,5,7,3,73,59,345]
+sum = 0
+i = 0
+while i < len(shed):
+    if i%2 != 0:
+        sum += shed[i]
+    i+=1
 
-# print(sum)
+print(sum)
 
 
 # 3 ВАРИАНТ
-shed = [1,5,7,3,73,59,345]
-sum = 0
-for i in range (len(shed)//2+1):
-    print(shed.pop(i))
-    print(shed)
-for i in range (len(shed)):
-    sum += shed[i]
+# shed = [1,5,7,3,73,59,345]
+# sum = 0
+# for i in range (len(shed)//2+1):
+#     print(shed.pop(i))
+#     print(shed)
+# for i in range (len(shed)):
+#     sum += shed[i]
 
-print(sum)
+# print(sum)
